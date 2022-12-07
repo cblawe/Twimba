@@ -46,7 +46,6 @@ i{
 main, header{
     width: 290px;
     margin: 0 auto;
-    /* border: 1px solid; */
 }
 
 header{
@@ -85,6 +84,11 @@ textarea{
     font-size: 14px;
     line-height: 20px;
     display: flex;
+}
+
+.dark-mode .reply-text-area {
+    background-color: #141d26;
+    color: lightslategray; 
 }
 
 button{
